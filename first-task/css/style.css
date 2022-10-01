@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: span;
+    src: url(../fonts/aAutoSignature.ttf);
+}
+@font-face {
+    font-family: p;
+    src: url(../fonts/Belleza-Regular.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: arvo;
+    src: url(../fonts/Arvo-Italic.ttf);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+  
+    box-shadow: 0 1px 15px rgb(221, 221, 221);
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    font-family: roboto;
+}
+header .logo img{
+   width: 100px;
+   height: 30px;
+}
+header .menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+header .menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+    /* border: 3px solid transparent; */
+  
+}
+
+header .menu ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: all .3s ease;
+    float: right;
+}
+
+header .menu ul li a:hover {
+    color: rgb(181, 145, 117);
+    border-bottom: 2px solid rgb(181, 145, 117);
+}
+
+
+
+
+header .leftmenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header .leftmenu ul li {
+    display: inline-block;
+    margin: 0 10px;
+  
+  
+}
+
+header .leftmenu ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: all .3s ease;
+    float: left;
+   
+}
+
+header .leftmenu ul li a:hover {
+    color: rgb(181, 145, 117);
+    border-bottom: 2px solid rgb(181, 145, 117);
+}
+
+
+
+
+
+.abc{
+
+    background-position: center;
+    object-fit: contain;
+    background-image: url(../images/landong-parallax-3.jpg);
+    text-align: right;
+    margin-bottom: 5%;
+    /* justify-content: left; */
+    
+}
+.abc p{
+    /* font-size: 50px; */
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    padding: 15% 8%;
+    font-family: p;
+   
+}
+
+.abc span{
+    font-size: 50px;
+    font-family: span;}
+
+
+
+
+
+.content h2{
+    text-align: center;
+   
+    font-family: p;
+}
+
+.content span{
+    font-family: span;
+    font-size: 50px;
+    color: rgb(181, 145, 117);
+    margin-left: 35%;
+
+ 
+}
+
+.content p{
+    font-family: p;
+    font-size: 20px;
+    margin: 5%;
+
+ 
+}
+
+
+.null{
+    background-color: rgba(235, 215, 200, 0.24);
+ 
+}
+.null img{
+    float: left;
+    max-height: 302px;
+    margin: 3%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.null .two{
+    /* float: right; */
+    padding: 90px;
+    margin-left: 30%;
+    
+    width: 50%;
+    text-align: justify;
+    
+}
+.null .two span{
+  
+    /* padding: 30px; */
+    margin-left: 30%;
+ 
+    width: 50%;
+    font-family: span;
+    font-size: 50px;
+    color: rgb(181, 145, 117);
+    
+}
+
+.clearfix {
+    clear: both;
+    }
+
+
+
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0;
+    }
+
+    .card {
+        width: 32%;
+        box-shadow: 0 0 10px #eee;
+        margin-bottom: 20px;
+        border-radius: 7px;
+        
+        overflow: hidden;
+        background: #fff;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+}
+    
+    .card img {
+     
+        object-fit: cover;
+        /* object-position: top; */
+
+        height: auto;
+    max-width: 100%;
+    }
+    
+    .card .content {
+        padding: 20px;
+        color: rgb(70, 70, 70);
+    }
+    
+    .card .content h2 {
+        margin-top: 0;
+        /* color: #9a3c88; */
+    }
+    
+    .card .content h2 a {
+        text-decoration: none;
+        /* color: inherit; */
+        color: rgb(181, 145, 117);
+    }
+    
+    .card a.btn {
+        display: block;
+        background-color: rgb(181, 145, 117);
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        border: 1px solid rgb(181, 145, 117);
+        transition: all .3s ease;
+    }
+    
+    .card a.btn:hover {
+        color: rgb(181, 145, 117);
+        background: transparent;
+    }
+
+
+
+    .mapy .boxa{
+        display: flex;
+        background-color: rgba(235, 215, 200, 0.24);
+
+    justify-content: space-between;
+    }
+.mapouter{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+        .center {
+            position: relative;
+            padding:30px 30px;
+            background: #fff;
+            border-radius: 10px;
+            margin: 5%;
+          }
+          .center h1 {
+            font-size: 1.7em;
+            border-left: 5px solid rgb(181, 145, 117);
+            /* padding: 10px; */
+            color: #000;
+            letter-spacing: 5px;
+            /* margin-bottom: 60px; */
+            font-weight: bold;
+            padding-left: 10px;
+            font-family: span;
+          }
+          .center .inputbox {
+            position: relative;
+            width: 270px;
+            height: 25px;
+            margin-bottom: 50px;
+          }
+          .center .inputbox input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.556);
+            outline: none;
+            background: none;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: .5 em;
+            
+          }
+          .center .inputbox:last-child {
+            margin-bottom: 0;
+          }
+          .center .inputbox span {
+            position: absolute;
+            top: 14px;
+            left: 20px;
+            font-size: 1em;
+            transition: 0.6s;
+            font-family: p;
+          }
+          .center .inputbox input:focus ~ span,
+          .center .inputbox input:valid ~ span {
+            transform: translateX(-13px) translateY(-35px);
+            font-size: 1em;
+          }
+          .center .inputbox [type="button"] {
+            width: 50%;
+            background: rgb(181, 145, 117);
+            color: #fff;
+            border: #fff;
+          }
+          .center .inputbox:hover [type="button"] {
+            background: linear-gradient(45deg, rgb(240, 196, 162), rgb(181, 145, 117));
+          }
+          
+
+          footer{
+            background-color: rgb(181, 145, 117);
+            height: 50px;
+          font-family: arvo;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
