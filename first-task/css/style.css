@@ -66,6 +66,10 @@ header .menu ul li a {
     text-decoration: none;
     transition: all .3s ease;
     float: right;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
 }
 
 header .menu ul li a:hover {

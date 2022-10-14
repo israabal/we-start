@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(239, 239, 239, 0.756);
+}
+
+@font-face {
+    font-family: harmattan;
+    src: url(../fonts/Harmattan-Regular.ttf);
+}
+@font-face {
+    font-family: p;
+    src: url(../fonts/Belleza-Regular.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: wahran;
+    src: url(../fonts/Wahran-Light.otf);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+  
+    box-shadow: 0 1px 15px rgb(221, 221, 221);
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    font-family: roboto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+header .menu ul li {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: small;
+    font-family: wahran;
+    /* border: 3px solid transparent; */
+  
+}
+a {
+    color: #333;
+    text-decoration: none;
+    transition: all .3s ease;
+    /*float: right;
+    */-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+header .menu ul li a:hover {
+    color: rgb(181, 145, 117);
+    border-bottom: 2px solid rgb(181, 145, 117);
+}
+
+header .logo span{
+    color: rgb(1, 133, 1);
+    font-family: p;
+}
+header .logo h3{
+    color: rgb(113, 97, 32);
+    font-family: wahran;    
+}
+header .menu .login a{
+    background-color: green;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 15px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.hero{
+    font-family: harmattan;
+}
+.hero .subhead p{
+    margin-top: 80px;
+    padding: 5px 80px 0px;
+    font-family: harmattan;
+
+}
+.hero span{
+    font-weight: bold;
+}
+.hero .subhead h3{
+  padding-right: 80px;
+  padding: 0%;
+}
+
+.hero .about p{
+    padding: 10px 80px;
+    background-color: green;
+    align-items: center;
+    color: #fff;
+}
+
+
+.reservation{
+    display: flex;
+    justify-content: space-between;
+}
+.reservation .images{
+    float: left;
+    width: 35; 
+}
+.reservation .text{
+    /* float: right; */
+    width: 45; 
+}
+
+
+/* .null{
+    background-color: rgba(235, 215, 200, 0.24);
+ 
+} */
+.null  {
+  
+}
+.null .one{
+    width: 300px;
+    /* height:00px; */
+    /* background: #2696eb; */
+    position: relative;
+    float: left;
+    max-height: 302px;
+    margin-top: 50px;
+}
+
+.small {
+    /* width: 300px;
+    height: 300px; */
+    /* background: #ed25c9; */
+    position: absolute;
+    left: 270px;
+    top: 40px;
+}
+.smal {
+ 
+    /* background: #ed25c9; */
+    position: absolute;
+    left: 170px;
+    top: 100px;
+}
+.null img{
+   
+    margin: 3%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.null .two{
+    /* float: right; */
+    padding: 90px;
+    margin-left: 30%;
+    
+    width: 40%;
+    text-align: justify;
+    
+}
+.null .two span{
+  
+    /* padding: 30px; */
+    margin-left: 30%;
+ 
+    width: 50%;
+    font-family: span;
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+
+.null .two a{
+  
+    /* padding: 30px; */
+    margin-left: 30%;
+ 
+    width: 50%;
+    font-family: span;
+    font-size: 15px;
+    font-weight: bold;
+
+
+    background-color: green;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 25px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+
+    
+}
+
+.null .two p{
+    margin-bottom: 40px;
+}
+.clearfix {
+    clear: both;
+}
+
+
+
+.date{
+    display: flex;
+    font-family: wahran;
+   
+}
+
+.now{
+
+width: 30%;
+margin:0 7%;
+margin-left:10%;
+}
+.past{
+   padding: 0 2%;
+    width: 25%;
+ 
+}
+
+ .card{
+    box-shadow: 0 0 10px rgba(206, 206, 206, 0.457);
+    padding: 15px 10px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+
+.more{
+color: green;  
+  margin-right: 70%;
+}
+
+.day{
+    padding-right: 45%;
+    color: green;
+}
+hr{
+    color: green;
+}
+.card span{
+    font-style: normal;
+   font-size: 12px;
+   font-family: p;
+}
+.logi {
+    background-color: green;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 65px;
+   
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+
+}
+.s {
+    margin-right: 15%;}
+.cons h5{
+padding-right: 7%;
+font-family: wahran;
+margin-top: 7%;
+}
+.cons h5 span{
+    padding-right:12%;
+    
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.car {
+    width: 22%;
+  
+    margin-bottom: 20px;
+    border-radius: 7px;
+    text-align: center;
+    overflow: hidden;
+  box-shadow: 4px 5px 2px 0px rgba(228, 228, 228, 0.446);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.car img {
+    margin-top: 5px;
+    justify-content: center;
+ border-radius: 25px;
+ -webkit-border-radius: 25px;
+ -moz-border-radius: 25px;
+ -ms-border-radius: 25px;
+ -o-border-radius: 25px;
+}
+
+.car .content {
+    padding: 20px;
+    color: rgb(70, 70, 70);
+}
+
+.car .content h2 {
+    margin-top: 0;
+    /* color: #9a3c88; */
+}
+
+.car .content h4 a {
+    text-decoration: none;
+    font-family: wahran;
+        color: green;
+}
+
+.car .content p {
+ 
+    font-family: harmattan;
+  
+       
+}
+
+.form{
+   width: 45%;
+   padding-top: 2%;
+   margin-right: 30%;
+ box-shadow:    5px  5px 5px 5px rgba(213, 213, 213, 0.519);
+   padding-right: 5%;
+    font-family: harmattan;
+}
+.form h2{
+    margin-right: 35%;
+}
+
+.f {
+    text-align: right;
+    margin-left: 42%;
+
+}
+input{
+    margin-left: 15%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% ;
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+
+footer p{
+   margin-right: 40%;
+ 
+}
+.j
+{
+    font-style: normal;
+}
