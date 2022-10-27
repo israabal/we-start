@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sn;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: sn;
+    src: url(../webfonts/Sniglet-Regular.ttf);
+}
+
+@font-face {
+    font-family: sn-bold;
+    src: url(../webfonts/Sniglet-ExtraBold.ttf);
+}
+nav{
+    background-image: url("../images/olive-oil-olives-with-copy-space.jpg");
+   background-productition:center;
+   background-size:cover;
+
+}
+.header{
+    background-color: rgba(85, 107, 47, 0.365);
+    height: 100vh;
+  
+} 
+
+.nav ul{
+    display: flex;
+    padding: 30px 50px;
+    justify-content: right;
+    color: darkolivegreen;
+}
+.nav ul li{
+    padding: 30px;
+    font-size: 20px;
+}
+.a{
+    margin-top: 5%;
+}
+.header .a span{
+    font-size: 150px;
+    /* font-family: sn; */
+    text-align: center;
+    margin-left: 50%;
+ 
+    color: darkolivegreen;
+}
+.header  .a p{
+    /* font-size: 150px; */
+    /* font-family: sn; */
+    text-align: left;
+    margin-left: 55%;
+    width: 40%;
+    margin-bottom: 50%;
+    color: rgb(112, 134, 75);
+}
+.product .container{
+    display: flex;
+}
+.product .container .imag{
+ padding-top: 90px ;
+ 
+}
+.product .container .desc{
+    padding: 60px 65px 0 50px; 
+     }
+   .product .container .desc p{
+    /* padding-top: 30px; */
+    margin-bottom: 5%;
+    color: rgba(125, 142, 97, 0.718);
+  
+   }
+   .product .container .desc h3{
+   color: darkolivegreen;
+font-size: 30px;
+}
+
+
+.product .container .desc a{
+  color: #fff;
+  border-radius: 25px;
+  background-color: darkolivegreen;
+  padding: 10px 40px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+
+.pos .container  {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between  ;
+}
+.pos .box{
+    height: 280px;
+    width: 350px;
+    background-color: rgba(184, 220, 123, 0.611);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+.pos .box h2{
+ padding: 50px 50px 25px 30px;
+ font-size: 30px;
+}
+
+.pos .box a{
+    margin-left: 50px;
+    padding: 15px 30px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    background-color: #e0bb46;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.pos .box i{
+    font-size: 45px;
+    color: darkolivegreen;
+    text-align: right;
+    margin-top: 15px;
+    display: block;
+    padding: 10px;
+
+}
+footer span{
+    margin-left: 40%;
+
+    color: darkolivegreen;
+    font-size: 20px;
+  
+}
+footer{
+
+    background-image: url('../images/olive-oil-olives-with-copy-space.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+  
+    
+
+}
+.all{
+    background-color: rgba(85, 107, 47, 0.138);
+    
+
+}
+footer .container {
+
+    display: flex;
+ 
+    justify-content: space-between;
+    margin: 5% 10% 2% ;
+    padding: 5% 0 3% 0;
+   
+}
+footer .container  .text{
+    width: 35%;
+}
+
+
+footer .container  .text p{
+    font-family:'Open Sans', sans-serif ;
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+footer .container .follow{
+    font-size: 30px;
+ 
+}
+footer .container .follow i { 
+   color: #e0bb46;
+   margin: 2px;
+   padding: 2px;
+   font-size: 40px;
+
+
+}
+
+footer .container .msg{
+    font-family:'Open Sans', sans-serif ;
+    width: 40%;
+    font-size: 20px;
+}
+
+footer .container .msg input{
+    /* padding: 25px 30%; */
+    /* text-align: left; */
+    padding:4% 70% 5% 0;
+
+    display: block;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+footer .container .msg a{
+    color: #fff;
+    background-color: darkolivegreen;
+    padding: 15px 35px;
+    border-radius: 25px ;
+    -webkit-border-radius: 25px ;
+    -moz-border-radius: 25px ;
+    -ms-border-radius: 25px ;
+    -o-border-radius: 25px ;
+}
