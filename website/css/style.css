@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+
+
+
+
+
 
 body {
     margin: 0;
@@ -20,6 +27,8 @@ ul {
 
 a {
     text-decoration: none;
+    /* cursor: pointer; */
+    color: darkolivegreen;
     
 }
 
@@ -36,10 +45,25 @@ a {
     font-family: sn-bold;
     src: url(../webfonts/Sniglet-ExtraBold.ttf);
 }
+
+
+.nav-active {
+    background-color:#fff;
+    box-shadow: 5px -1px 12px -5px grey;
+}
+
+.nav{
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+   
+}
 nav{
     background-image: url("../images/olive-oil-olives-with-copy-space.jpg");
    background-productition:center;
    background-size:cover;
+
+
 
 }
 .header{
@@ -50,7 +74,7 @@ nav{
 
 .nav ul{
     display: flex;
-    padding: 30px 50px;
+    padding-top: 10px ;
     justify-content: right;
     color: darkolivegreen;
 }
@@ -58,15 +82,15 @@ nav{
     padding: 30px;
     font-size: 20px;
 }
-.a{
-    margin-top: 5%;
+.header .a{
+    padding-top: 15%;
 }
 .header .a span{
     font-size: 150px;
     /* font-family: sn; */
     text-align: center;
     margin-left: 50%;
- 
+   
     color: darkolivegreen;
 }
 .header  .a p{
@@ -137,6 +161,7 @@ font-size: 30px;
     margin-left: 50px;
     padding: 15px 30px;
     font-size: larger;
+    cursor: pointer;
     color: rgb(0, 0, 0);
     background-color: #e0bb46;
     border-radius: 25px;
@@ -145,7 +170,9 @@ font-size: 30px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
 }
-
+.hide{
+    display: none;
+}
 .pos .box i{
     font-size: 45px;
     color: darkolivegreen;
@@ -239,3 +266,113 @@ footer .container .msg a{
     -ms-border-radius: 25px ;
     -o-border-radius: 25px ;
 }
+
+
+i.as{
+    position: fixed;
+    bottom: 56px;
+    right: 10px; 
+    
+    font-size: 30px;
+ /* font-weight: 900; */
+    color: darkolivegreen;
+}
+
+
+
+.fa-align-justify{
+    color: black;
+    font-size: 30px;
+    float: right;
+}
+.ab{
+    background-color: rgba(128, 128, 128, 0.509);
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+
+}
+.close{
+    font-size: 15px;
+    margin-left: 30%;
+   cursor: pointer;
+    float: left;
+  
+}
+
+
+.aq p{
+    display: block;
+    margin-left: 64.5%;
+    margin-top: 0;
+color: #fff;
+    font-size: 30px;
+}
+.aq form {
+    
+    height: 520px;
+    width: 400px;
+    background-color: darkolivegreen;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+  }
+  .aq form * {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: sn;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  .aq  form h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+  }
+  
+  .aq label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .aq input {
+    height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  }
+  .aq ::placeholder {
+    color: #e1e1e1;
+  }
+  
+  .aq input:hover{
+    outline: 2px solid #0001;
+  }
+  .aq button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 

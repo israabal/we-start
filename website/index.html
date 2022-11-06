@@ -13,18 +13,22 @@
 
     <nav>
         <section class="header">       
-        <div class="nav">
+        <div class="nav  ">
             <ul>
-                <li>Home</li>
-                <li>POS</li>
-                <li>Products</li>
-                <li>Contact</li>
+                <li><a href="#a">Home</a></li>
+                <li><a href="#pos">Pos</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#footer">Contact</a></li>
+      
+              
             </ul>
         </div> <!-- .nav -->
- <div class="a">
-    <span> Oilyoil </span>
+ <div class="a" id="a">
     
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolor. Dolor quo pr commodi est voluptatum adipisci, aspernatur impedit ducimus nesciunt harum vero! Praesentium?</p>
+    <span> Oilyoil </span>
+    <p>
+        <!-- <span> Oilyoil </span> -->
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolor. Dolor quo pr commodi est voluptatum adipisci, aspernatur impedit ducimus nesciunt harum vero! Praesentium?</p>
  </div>
 
 
@@ -32,7 +36,7 @@
     </section>  <!-- .header -->
    
     </nav>
-    <section class="product">
+    <section class="product" id="product">
     
           
         <div class="container">
@@ -65,7 +69,11 @@
                 </div>  <!-- .desc -->
 </div>  <!-- .pro -->
 
+    <i onclick="scrollToTop()" 
+    class="as fa fa-arrow-alt-circle-up"></i>
+ 
 <div class="container">
+    
     <div class="imag">
                     <img src="https://fakeimg.pl/1550x1300/" alt="">
                 </div><!-- .imag -->
@@ -82,17 +90,23 @@
    
     </section> <!-- product -->
 
-    <section class="pos">
+    <section class="pos" id="pos">
         <div class="container">
+          
+
             <div class="box">
                 <h2>
                     Any Question?
                 </h2>
 
-                <a href=""> Make An Enquiry </a>
-
+                <!-- <a href=""> </a> -->
+                <a  class="showme" type="button" >Make An Enquiry</a>
+             
+       
                 <i class="fa fa-question-circle"></i>
             </div>
+
+
 
 
             <div class="box">
@@ -100,10 +114,20 @@
                     See it Yourself!
                 </h2>
 
-                <a href=""> Book a Visit </a>
-
+                <!-- <a href=""> </a> -->
+                <a  class="showme" type="button"> Book a Visit</a>
+      
                 <i class="fa fa-book-bookmark"></i>
             </div>
+
+
+
+
+
+
+
+
+
 
 
             <div class="box">
@@ -111,16 +135,81 @@
                     Ready to Join?
                 </h2>
 
-                <a href=""> Register Here </a>
-
+                <!-- <a href=""> </a> -->
+                <a  class="showme" type="button" > Ready to Join?</a>
+             
+                <div class="ab">
+                   
+                            <div class=" aq">
+                                <!-- <i class="fa fa-close"></i> -->
+                                <p class="close">x</p>
+                                <form>
+                                 
+                                    
+                                    <h3>Login Here</h3>
+                                  
+                                    <label for="username">Username</label>
+                                    <input type="text" placeholder="Email or Phone" id="username">
+                                  
+                                    <label for="password">Password</label>
+                                    <input type="password" placeholder="Password" id="password">
+                                  
+                                    <button>Log In</button>
+                                  
+                                  </form>
+                               
+                                <!-- <a href="#">Subscribe</a> -->
+                            </div>
+                </div>
                 <i class="fa fa-home"></i>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
         </div>
      
     </section> <!-- .pos -->
 
 
-    <footer>
+  
+    <footer id="footer">
         <div class="all">
 
         
@@ -144,7 +233,7 @@
                 <div class="msg">
                     <p>Subscribe to our newsletter for seasonal promotions, health news and savings  </p>
     
-                    <input type="text" placeholder="Enter Your Email Here *">
+                    <input type="text" placeholder="      Enter Your Email Here *">
     
                     <a href="#">Subscribe</a>
                 </div>
@@ -157,6 +246,11 @@
     Copyright © 2022.Israa Balosha. 
    </span> 
 </div> </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
     <script src="js/script.js"></script>
 </body>
 </html>
